@@ -68,9 +68,11 @@ button a {
 
 /* header part end */
 
+/* donate amount part done */
 .donate-section {
     width: 50%;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     margin: 0 auto;
 }
@@ -108,3 +110,50 @@ button a {
     text-align: center;
     padding-top: 20px;
 }
+/* donate amount part end */
+
+/* feature section start */
+.feature-section {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.title2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.box{
+    width: 270px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.box2{
+    background-color: #E2DED5;
+    box-shadow: 4px 4px 6px gray;
+}
+.box3{
+    background-color: #F1D5F1;
+    box-shadow: 4px 4px 6px gray;
+}
+.box4{
+    background-color: #F3CEB0;
+    box-shadow: 4px 4px 6px gray;
+}
+
+.package-descript-text {
+    text-align: justify
+}
+
+.icon img {
+    width: 70px;
+}
+/* feature section end */
