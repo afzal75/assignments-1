@@ -101,15 +101,18 @@ button a {
     padding: 10px 20px;
     margin-top: -10px;
 }
-.other-amount{
+
+.other-amount {
     color: #B3B3B3;
     text-align: center;
     padding-top: 20px;
 }
-.btn{
+
+.btn {
     text-align: center;
     padding-top: 20px;
 }
+
 /* donate amount part end */
 
 /* feature section start */
@@ -122,38 +125,161 @@ button a {
     flex-wrap: wrap;
 }
 
-.title2 {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-
-.box{
+.blog {
     width: 270px;
     margin: 0 auto;
     padding: 25px;
     border-radius: 5px;
     margin-top: 20px;
 }
-.box2{
+
+.blog2 {
     background-color: #E2DED5;
     box-shadow: 4px 4px 6px gray;
 }
-.box3{
+
+.blog3 {
     background-color: #F1D5F1;
     box-shadow: 4px 4px 6px gray;
 }
-.box4{
+
+.blog4 {
     background-color: #F3CEB0;
     box-shadow: 4px 4px 6px gray;
 }
 
+.blog-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .package-descript-text {
-    text-align: justify
+    text-align: justify;
+    line-height: 23px;
 }
 
 .icon img {
     width: 70px;
 }
+
 /* feature section end */
+
+/* contact form start */
+.contact {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact p {
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+    line-height: 25px;
+}
+
+.contact__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.contact__details .info {
+    line-height: 40px;
+}
+
+.contact__details .info h3 {
+    margin-bottom: 1rem;
+}
+
+.contact__details .info span {
+    font-weight: bold;
+}
+
+.form_inside {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    outline: none;
+    background: #bab2b2;
+    border: 0;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+}
+
+#submit {
+    margin-top: 1.2rem;
+    padding: 5px 10px;
+}
+
+#submit:hover {
+    background-color: #ff5959;
+    outline: none;
+}
+
+/* contact form end */
+
+/* update section start */
+.email-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 809px;
+    height: 200px;
+    background: #cccbc7;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.email-field input {
+    width: 300px;
+    height: 27px;
+    outline: none;
+    background: #bab2b2;
+    border: 0;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FF5959;
+    color: white;
+    text-align: left;
+    border-radius: 5%;
+    margin-top: -16px;
+}
+
+.email-form {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+/* footer section start */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0B0D17;
+    text-align: center;
+    height: 177px;
+}
+
+.footer h2 {
+    color: #FF5959;
+    font-size: 36px;
+}
+.footer p {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.footer small{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+/* footer section end */
