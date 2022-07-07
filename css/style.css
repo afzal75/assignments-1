@@ -101,11 +101,21 @@ button a {
     padding: 10px 20px;
     margin-top: -10px;
 }
+.taka{
+    border: 2px solid lightsalmon;
+    padding: 10px 20px;
+    margin-top: -10px;
+}
 
 .other-amount {
     color: #B3B3B3;
     text-align: center;
     padding-top: 20px;
+}
+hr{
+    width: 80%;
+    color: #DADADA;
+    margin: 0 auto;
 }
 
 .btn {
@@ -115,8 +125,8 @@ button a {
 
 /* donate amount part end */
 
-/* feature section start */
-.feature-section {
+/* blog section start */
+.blog-section {
 
     margin-top: 50px;
     display: flex;
@@ -162,7 +172,7 @@ button a {
     width: 70px;
 }
 
-/* feature section end */
+/* blog section end */
 
 /* contact form start */
 .contact {
